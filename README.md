@@ -10,7 +10,25 @@ Expense Tracker is a PHP and MySQL web application that allows users to track th
 - Secure authentication and password hashing
 
 ## Technologies Used
-- PHP
+
+- **Backend**: PHP (Procedural)
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: MySQL
+- **Server**: Apache (XAMPP or similar)
+
+## Prerequisites
+
+- [XAMPP](https://www.apachefriends.org/index.html) (or any other local PHP server)
 - MySQL
-- HTML, CSS
-- JavaScript
+- PHP version 7.x or higher
+
+###Configure the Database
+- Download the `expense_tracker.sql` file from this repository.
+- Import the file into your MySQL database:
+  - Using phpMyAdmin:
+    - Open phpMyAdmin, create a new database named `expense_tracker`, and import the `finance_tracker.sql` file.
+  - Using MySQL CLI:
+    ```bash
+    mysql -u root -p expense_tracker < path/to/finance_tracker.sql
+    ```
+- Update the database credentials in `includes/config.php` with your own MySQL credentials.
