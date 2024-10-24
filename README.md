@@ -22,6 +22,13 @@ Expense Tracker is a PHP and MySQL web application that allows users to track th
 - MySQL
 - PHP version 7.x or higher
 
+## Installation of project
+- Download zip file of project.
+- Unzip the file in htdocs of xampp.
+- Configure the Database
+- Access the project's first webpage through localhost.
+- Please note that register.php in the first web page of this project.
+  
 ###Configure the Database
 - Download the `expense_tracker.sql` file from this repository.
 - Import the file into your MySQL database:
