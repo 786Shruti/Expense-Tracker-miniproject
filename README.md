@@ -30,13 +30,13 @@ Expense Tracker is a PHP and MySQL web application that allows users to track th
 - Access the project's first webpage through localhost.
 - Please note that register.php in the first web page of this project.
   
-##Configure the Database
+## Configure the Database
 - Download the `expense_tracker.sql` file from this repository.
 - Import the file into your MySQL database:
   - Using phpMyAdmin:
     - Open phpMyAdmin, create a new database named `expense_tracker`, and import the `finance_tracker.sql` file.
   - Using MySQL CLI:
     ```bash
-    mysql -u root -p expense_tracker < path/to/finance_tracker.sql
+    mysql -u root -p expense_tracker < path/to/expense_tracker.sql
     ```
 - Update the database credentials in `includes/config.php` with your own MySQL credentials.
